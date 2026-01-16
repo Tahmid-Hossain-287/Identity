@@ -1,1 +1,4 @@
 env
+mylinks/db.sqlite3
+*pycache*
+*.pyc
