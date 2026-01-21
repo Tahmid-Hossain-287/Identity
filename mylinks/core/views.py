@@ -1,6 +1,7 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
 # Create your views here.
 
 def links(request):
-    return render(request, 'core/links.html')
+    # return render(request, 'core/links.html')
+    return HttpResponse("Hello World")
